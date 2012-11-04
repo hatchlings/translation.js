@@ -45,4 +45,5 @@ Example `fb:intl` Tags
 
 `<fb:intl>This is a <fb:intl-token name="adjective">complex</fb:intl-token> string.</fb:intl>`
 
-`<fb:intl>This is a <fb:intl-token name="link"><a href="#"><fb:intl>translated link</fb:intl></a></fb:intl-token> within a string.</fb:intl>`
+`<fb:intl>This is a <fb:intl-token name="link"><a href="#"><fb:intl>translated link</fb:intl></a></fb:intl-token> within
+a string.</fb:intl>`
