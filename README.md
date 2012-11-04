@@ -33,11 +33,11 @@ translation table.
 
 Example Locales
 ===============
-Spanish: Translation.setLocale('es_LA');
+Spanish: `Translation.setLocale('es_LA');`
 
-Dutch: Translation.setLocale('nl_NL');
+Dutch: `Translation.setLocale('nl_NL');`
 
-French: Translation.setLocale('fr_FR');
+French: `Translation.setLocale('fr_FR');`
 
 Example `fb:intl` Tags
 ======================
