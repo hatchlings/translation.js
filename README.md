@@ -10,7 +10,7 @@ To use just include Translation.js, initialize the Facebook API, and include fb:
 tags on your page.
 
 To initialize the library, select a locale using `Translation.setLocale(locale)`. This will automatically translate
-any fb:intl tags on the page using any translations that you have registered and translated through the Facebook
+any `fb:intl` tags on the page using any translations that you have registered and translated through the Facebook
 Translations tool.
 
 In order to register strings for translation just call `Translation.registerStrings(false)` after choosing any locale
@@ -38,3 +38,11 @@ Spanish: Translation.setLocale('es_LA');
 Dutch: Translation.setLocale('nl_NL');
 
 French: Translation.setLocale('fr_FR');
+
+Example `fb:intl` Tags
+======================
+`<fb:intl>This is a simple string.</fb:intl>`
+
+`<fb:intl>This is a <fb:intl-token name="adjective">complex</fb:intl-token> string.</fb:intl>`
+
+`<fb:intl>This is a <fb:intl-token name="link"><a href="#"><fb:intl>translated link</fb:intl></a></fb:intl-token> within a string.</fb:intl>`
