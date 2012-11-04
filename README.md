@@ -1,7 +1,7 @@
 translation.js
 ==============
 
-Adds `&lt;fb:intl>` tag support to XFBML (requires jQuery)
+Adds `<fb:intl>` tag support to XFBML (requires jQuery)
 
 Facebook's `fb:intl` tags have long been broken. Luckily, the backend methods still work. This library provides the
 required glue to make your fb:intl tags work again.
